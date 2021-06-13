@@ -1,0 +1,10 @@
+.patBtn{
+    background-color: rgb(178, 243, 178);
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.patBtn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px grey;
+}
