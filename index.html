@@ -10,17 +10,6 @@
 <body>
     <button class="patBtn" onclick="generatePattern1()">Click Here For Pattern 1</button>
     <p id="pattern1"></p>
-    <Script>
-        function generatePattern1(){
-            let str = "";
-            for(let i=1; i<=5; i++) {
-                 for(let j=1; j<=i; j++){
-                    str = str.concat('* ');
-                }
-                str = str.concat('<br />');
-            }
-            document.getElementById('pattern1').innerHTML  = str;
-        }
-    </Script>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
